@@ -1,0 +1,22 @@
+Joao Vitor Martins
+21011437-2
+
+8 - Descreva com suas palavras o que é o loop de eventos no contexto do
+Node.js. Explique como ele funciona para permitir operações assíncronas não
+bloqueantes, mencionando os tipos de tarefas que são processadas em cada fase do
+loop de eventos. Como o loop de eventos se relaciona com a eficiência do Node.js em
+lidar com I/O assíncrono?
+
+R: Loop de eventos em node.js é uma ferramenta que possibilita o Node executar demais 
+operações assíncronas de Entrada e Saída, sem que haja bloqueio. Isso ocorre, pois inúmeras
+aplicações acabam por ser multthreads, facilitando o trabalho com multi-tarefas ao memso tempo.
+
+9 - Explique com suas palavras o papel da engine V8 e da biblioteca libuv no
+funcionamento do Node.js. Como cada uma dessas componentes contribui para a
+execução de código JavaScript e operações de I/O assíncronas, respectivamente?
+Discuta como a interação entre V8 e libuv permite que o Node.js ofereça um
+desempenho eficiente para aplicações web.
+
+R: O Motor V8 do Node.js, é uma ferramenta que transpila a linguagem C++ para javaScript em linguagem de máquina. Com isso, 
+por ser uma linguagem que pode ser interpretada ou compilada, possui vantagens tanto em desempenho, portabilidade e segurança.
+Já a Libuv, é uma biblioteca em node que permite trabalhar com operações assíncronas.
